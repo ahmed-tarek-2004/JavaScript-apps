@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BootStrap">
+    <title>Bootstrap</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- BootStrap File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  
+  <div class=".fade .show " role="alert" 
+  style="display:none;" id="alert">
+    <strong>Error!</strong> You should Enter Right Date.
+    <button type="button" id="close" style="background-color:black; border-color:transparent ;width:50px;padding :10px; margin-left:50px; margin-top:3px;">
+      <span aria-hidden="true" style="color :White;">&times;</span>
+    </button>
+  </div>
+ <div class="parent">
+  <form action="">
+    <div class="cap">
+     <caption>Calculating Your Age</caption>
+    </div>
+    <div class="birth">
+     <label for="">Enter Your Birth Date</label>
+    <input type="date" name="" id="birth">
+    </div>
+   <div class="current">
+    <label for="">Enter Current Date</label>
+    <input type="date" name="" id="now">
+   </div>
+   <div class="submit">
+    <button type="send"  class ="rounded-pill" id="send">
+            Calculate
+        </button>
+   </div>
+   <div id="result"></div>
+   </form>
+  </div>
+  <!-- JS file -->
+  <script src="Js/main.js" type="module"></script>
+  <script src="Js/app.js" type="module"></script>
+  <!-- Bootstrap file -->
+  <script src="JS/all.min.js"></script>
+  <!--  JS Font-->
+  <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
