@@ -68,7 +68,7 @@ p{
 }
 @media  (max-width:2000px)and (min-width:0px){
     .parent{
-      
+      background-color:red;
         position: fixed ;
         top: 25%;
     }
