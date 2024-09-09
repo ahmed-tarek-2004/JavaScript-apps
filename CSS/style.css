@@ -73,5 +73,9 @@ p{
         top: 25%;
         left:25%;
     }
+     #button{
+        top:25% + 5px;
+        left: 25%;
+    }
 }
 
