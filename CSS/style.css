@@ -66,7 +66,7 @@ border-bottom-color: transparent;
 p{
     font-weight: bold;
 }
-@media  (max-width:1200px)and (min-width:0px){
+@media  (max-width:2000px)and (min-width:0px){
     .parent{
       
         position: fixed ;
